@@ -1,0 +1,103 @@
+/* Reseting default margins and paddings */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Style the default font for body */
+body {
+	font-size: 20px;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+/* Elements with shared attributes */
+h1,
+h2,
+.contact-intro,
+.contact-message-container,
+.message-logs,
+.contact-btn-container {
+	text-align: center;
+}
+
+h1,
+h2 {
+	margin-bottom: 20px;
+}
+
+h1,
+.contact-btn {
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.contact-intro,
+.contact-divs,
+.contact-message-container {
+	margin-bottom: 10px;
+}
+
+.contact-inputs,
+.contact-message {
+	padding: 5px;
+}
+
+.contact-inputs,
+.contact-message,
+.contact-btn {
+	font-size: 20px;
+}
+
+.contact-inputs,
+.contact-message {
+	width: 65%;
+}
+
+.contact-intro,
+.message-logs {
+	font-size: 16px;
+	font-style: italic;
+}
+
+/* heading styles */
+
+h1 {
+	font-size: 52px;
+}
+
+h2 {
+	font-size: 42px;
+}
+
+/* Contact Form styles */
+.contact-form {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.contact-labels {
+	display: inline-block;
+	width: 14%;
+	text-align: right;
+	font-weight: 500;
+}
+
+.contact-message {
+	height: 100px;
+}
+
+.contact-btn {
+	padding: 5px 10px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+/* Create some message log classes */
+.success {
+	color: green;
+}
+
+.failure {
+	color: red;
+}

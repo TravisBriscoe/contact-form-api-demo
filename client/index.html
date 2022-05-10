@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="./index.css" />
+
+		<title>Contact Form API Demo</title>
+	</head>
+	<body>
+		<h1>mywebsite.com</h1>
+		<h2>Contact Me</h2>
+
+		<p class="contact-intro">
+			If you would like to send me a question or comment, please fill in the below form and click
+			"SEND"
+		</p>
+
+		<form class="contact-form" id="contact-form">
+			<div class="contact-divs">
+				<label class="contact-labels" for="contact-name">Name:</label>
+				<input type="text" class="contact-inputs" name="contact-name" id="contact-name" required />
+			</div>
+			<div class="contact-divs">
+				<label class="contact-labels" for="contact-email">Email:</label>
+				<input
+					type="email"
+					class="contact-inputs"
+					name="contact-email"
+					id="contact-email"
+					required
+				/>
+			</div>
+			<div class="contact-divs">
+				<label class="contact-labels" for="contact-subject">Subject:</label>
+				<input
+					type="text"
+					class="contact-inputs"
+					name="contact-subject"
+					id="contact-subject"
+					required
+				/>
+			</div>
+
+			<label class="contact-labels" for="contact-message">Message:</label>
+			<div class="contact-message-container">
+				<textarea
+					name="contact-message"
+					class="contact-message"
+					id="contact-message"
+					required
+				></textarea>
+			</div>
+
+			<div class="message-logs" id="message-logs"><br /></div>
+
+			<div class="contact-btn-container">
+				<input type="submit" value="send" class="contact-btn" />
+			</div>
+		</form>
+		<script type="text/javascript" src="./index.js"></script>
+	</body>
+</html>
